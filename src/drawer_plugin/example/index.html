@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Push Menu (Navigation Drawer) Demo</title>
+	<style type="text/css">
+	#container {height: 1000px;}
+	</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../pushmenu.css">
+    <style>
+    #pm_menu {
+		background:#34495E;
+    color:#fff;
+    text-align:center
+	}
+    h1 { text-align:center}
+    </style>
+</head>
+<body>
+<div id="container">
+	<div id="pm_menu" class="pm_close">Your Navigation<br>
+<br>
+Goes Here</div>
+	<button id="open" class="btn btn-primary">Open</button>
+  <h1>jQuery Push Menu (Navigation Drawer) Demo</h1>
+  <div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../pushmenu.js"></script>
+<script type="text/javascript">
+	(function($){
+	    $('#pm_menu').pushmenu({ button : "#open" });
+  })(jQuery);
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
